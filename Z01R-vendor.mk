@@ -528,7 +528,6 @@ PRODUCT_PACKAGES += \
     libmorpho_image_stab4 \
     libmorpho_video_refiner \
     libmpbase \
-    libpn553_fw \
     libscveFaceLandmarks \
     libscveFaceRecognition \
     libsmwrapper \
@@ -613,6 +612,7 @@ PRODUCT_PACKAGES += \
     libnetmgr_rmnet_ext \
     libnlnetmgr \
     libpdmapper \
+    libpn553_fw \
     libqcc_file_agent \
     libqcmaputils \
     libqcrilFramework \
