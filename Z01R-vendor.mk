@@ -291,16 +291,6 @@ PRODUCT_PACKAGES += \
     libGPTEE_vendor \
     libGPreqcancel \
     libGPreqcancel_svc \
-    libOmxAacDec \
-    libOmxAlacDec \
-    libOmxAmrDec \
-    libOmxAmrwbplusDec \
-    libOmxApeDec \
-    libOmxEvrcDec \
-    libOmxG711Dec \
-    libOmxQcelp13Dec \
-    libOmxVpp \
-    libOmxWmaDec \
     libOpenCL \
     libQSEEComAPI \
     libQTEEConnector_vendor \
@@ -504,7 +494,7 @@ PRODUCT_PACKAGES += \
     libAsusRGBSensorHAL \
     libAsusShowFPS \
     libAsusZeniMoji \
-    libOmxDsdDec \
+    libOmxVpp \
     libSensorManagerHAL \
     libadm \
     libadpcmdec \
@@ -527,7 +517,6 @@ PRODUCT_PACKAGES += \
     libcom.qti.chinodeutils \
     libcppf \
     libdrc \
-    libdsd2pcm \
     libfastcrc \
     libmmcamera_faceproc \
     libmmcamera_faceproc2 \
