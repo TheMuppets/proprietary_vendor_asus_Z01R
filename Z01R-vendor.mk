@@ -808,7 +808,6 @@ PRODUCT_PACKAGES += \
     imsrcsd \
     init.qti.chg_policy \
     irsc_util \
-    is_keybox_valid \
     loc_launcher \
     lowi-server \
     mlid \

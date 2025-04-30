@@ -18640,36 +18640,6 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-    name: "is_keybox_valid",
-    owner: "asus",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/is_keybox_valid",
-            ],
-            shared_libs: [
-                "libcrypto",
-                "libcutils",
-                "liblog",
-                "libutils",
-                "libz",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    check_elf_files: false,
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
     name: "loc_launcher",
     owner: "asus",
     target: {
